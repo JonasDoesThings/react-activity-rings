@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
-    "target": "ESNext",                                  /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */     /* Specify a set of bundled library declaration files that describe the target runtime environment. */
+    "declaration": true,
+    "target": "es6",                                  /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
     "jsx": "react-jsx",                                /* Specify what JSX code is generated. */
     "module": "ESNext",                                /* Specify what module code is generated. */
     "rootDir": "./src",                                  /* Specify the root folder within your source files. */
@@ -14,9 +15,13 @@
     "skipLibCheck": true,                                /* Skip type checking all .d.ts files. */
     "plugins": [{ "name": "typescript-plugin-css-modules" }]
   },
+  "include": [
+    "src/**/*"
+  ],
   "exclude": [
     "dist",
     "node_modules",
+    ".storybook",
     "src/**/*.test.tsx",
     "src/**/*.stories.tsx"
   ]
