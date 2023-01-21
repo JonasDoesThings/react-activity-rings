@@ -1,12 +1,20 @@
 {
   "name": "react-activity-rings",
+  "version": "1.0.0",
+  "description": "Apple-inspired Activity Rings for React",
+  "license": "MIT",
   "packageManager": "yarn@3.3.0",
-  "main": "dist/index.cjs.js",
+  "main": "dist/index.cjs",
   "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
   "type": "module",
+  "files": ["dist"],
+  "repository": {
+    "url": "https://github.com/k4ds3/react-activity-rings/",
+    "type": "git"
+  },
   "scripts": {
-    "build": "rollup -c",
+    "build": "rm -rf dist/ && rollup -c",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook -o dist-storybook",
     "lint": "eslint --ext .js,.jsx,.ts,.tsx ./src"
