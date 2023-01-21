@@ -1,5 +1,5 @@
 {
-  "name": "react-activity-rings",
+  "name": "@jonasdoesthings/react-activity-rings",
   "version": "1.0.0",
   "description": "Apple-inspired Activity Rings for React",
   "license": "MIT",
@@ -8,7 +8,9 @@
   "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
   "type": "module",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "repository": {
     "url": "https://github.com/k4ds3/react-activity-rings/",
     "type": "git"

@@ -1790,6 +1790,44 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@jonasdoesthings/react-activity-rings@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "@jonasdoesthings/react-activity-rings@workspace:."
+  dependencies:
+    "@babel/core": ^7.20.12
+    "@rollup/plugin-commonjs": ^24.0.0
+    "@rollup/plugin-node-resolve": ^15.0.1
+    "@rollup/plugin-terser": ^0.3.0
+    "@rollup/plugin-typescript": ^11.0.0
+    "@storybook/addon-actions": ^6.5.15
+    "@storybook/addon-docs": ^6.5.15
+    "@storybook/addon-essentials": ^6.5.15
+    "@storybook/addon-interactions": ^6.5.15
+    "@storybook/builder-webpack4": ^6.5.15
+    "@storybook/manager-webpack4": ^6.5.15
+    "@storybook/react": ^6.5.15
+    "@types/react": latest
+    "@types/react-dom": latest
+    "@typescript-eslint/eslint-plugin": latest
+    "@typescript-eslint/parser": latest
+    babel-loader: ^8.3.0
+    eslint: ^8.32.0
+    eslint-plugin-react: latest
+    postcss: ^8.4.21
+    react: latest
+    react-dom: latest
+    rollup: ^3.10.1
+    rollup-plugin-peer-deps-external: ^2.2.4
+    rollup-plugin-postcss: ^4.0.2
+    tslib: ^2.4.1
+    typescript: ^4.9.4
+    typescript-plugin-css-modules: ^4.1.1
+  peerDependencies:
+    react: ^17 || ^18
+    react-dom: ^17 || ^18
+  languageName: unknown
+  linkType: soft
+
 "@jridgewell/gen-mapping@npm:^0.1.0":
   version: 0.1.1
   resolution: "@jridgewell/gen-mapping@npm:0.1.1"
@@ -12259,44 +12297,6 @@ __metadata:
   checksum: 51cc1b0d0e8c37c4336b5318f3b2c9c51d6998ad6f56ea09612afcfefc9c1f596341309e934a744ae907177f28efc9f1654eacd62151e82853fcc6d37450e795
   languageName: node
   linkType: hard
-
-"react-activity-rings@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "react-activity-rings@workspace:."
-  dependencies:
-    "@babel/core": ^7.20.12
-    "@rollup/plugin-commonjs": ^24.0.0
-    "@rollup/plugin-node-resolve": ^15.0.1
-    "@rollup/plugin-terser": ^0.3.0
-    "@rollup/plugin-typescript": ^11.0.0
-    "@storybook/addon-actions": ^6.5.15
-    "@storybook/addon-docs": ^6.5.15
-    "@storybook/addon-essentials": ^6.5.15
-    "@storybook/addon-interactions": ^6.5.15
-    "@storybook/builder-webpack4": ^6.5.15
-    "@storybook/manager-webpack4": ^6.5.15
-    "@storybook/react": ^6.5.15
-    "@types/react": latest
-    "@types/react-dom": latest
-    "@typescript-eslint/eslint-plugin": latest
-    "@typescript-eslint/parser": latest
-    babel-loader: ^8.3.0
-    eslint: ^8.32.0
-    eslint-plugin-react: latest
-    postcss: ^8.4.21
-    react: latest
-    react-dom: latest
-    rollup: ^3.10.1
-    rollup-plugin-peer-deps-external: ^2.2.4
-    rollup-plugin-postcss: ^4.0.2
-    tslib: ^2.4.1
-    typescript: ^4.9.4
-    typescript-plugin-css-modules: ^4.1.1
-  peerDependencies:
-    react: ^17 || ^18
-    react-dom: ^17 || ^18
-  languageName: unknown
-  linkType: soft
 
 "react-docgen-typescript@npm:^2.1.1":
   version: 2.2.2
