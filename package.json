@@ -8,7 +8,7 @@
   "scripts": {
     "build": "rollup -c",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "NODE_OPTIONS=--openssl-legacy-provider build-storybook -o dist-storybook",
+    "build-storybook": "build-storybook -o dist-storybook",
     "lint": "eslint --ext .js,.jsx,.ts,.tsx ./src"
   },
   "devDependencies": {
