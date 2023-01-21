@@ -3,6 +3,8 @@
 ![demo banner gif](.assets/activityrings_banner.gif)
 
 ## Examples
+Storybook Demo: https://k4ds3.github.io/react-activity-rings/
+
 ```tsx
 <ActivityRings rings={[
   {filledPercentage: 0.5, color: '#fa0e5a'},
@@ -24,6 +26,8 @@
   }} 
 />
 ```
+
+More usage-examples can be found under [./src/components/ActivityRings.stories.tsx](./src/components/ActivityRings.stories.tsx).
 
 ## API
 ### ActivityRings
