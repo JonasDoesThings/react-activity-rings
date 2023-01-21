@@ -2,10 +2,18 @@
 **Apple-inspired Activity Rings for React.**  
 ![demo banner gif](.assets/activityrings_banner.gif)
 
+## Installation
+using npm:  
+`npm install @jonasdoesthings/react-activity-rings`  
+using yarn:  
+`yarn add @jonasdoesthings/react-activity-rings`  
+
 ## Examples
 Storybook Demo: https://k4ds3.github.io/react-activity-rings/
 
 ```tsx
+import {ActivityRings} from "@jonasdoesthings/react-activity-rings";
+
 <ActivityRings rings={[
   {filledPercentage: 0.5, color: '#fa0e5a'},
   {filledPercentage: 0.75, color: '#afff02'},
