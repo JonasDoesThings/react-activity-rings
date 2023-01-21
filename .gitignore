@@ -3,5 +3,7 @@ node_modules/
 
 dist/
 
+dist-storybook/
+
 *.iml
 .idea/
