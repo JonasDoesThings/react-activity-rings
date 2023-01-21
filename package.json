@@ -19,7 +19,8 @@
     "build": "rm -rf dist/ && rollup -c",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook -o dist-storybook",
-    "lint": "eslint --ext .js,.jsx,.ts,.tsx ./src"
+    "lint": "eslint --ext .js,.jsx,.ts,.tsx ./src",
+    "prepack": "yarn build"
   },
   "devDependencies": {
     "@babel/core": "^7.20.12",
