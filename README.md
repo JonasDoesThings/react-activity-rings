@@ -1,5 +1,6 @@
 # react-activity-rings
 **Apple-inspired Activity Rings for React.**  
+
 ![demo banner gif](.assets/activityrings_banner.gif)
 
 ## Installation
