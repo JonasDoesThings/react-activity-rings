@@ -31,7 +31,6 @@ export default {
     typescript({
       tsconfig: './tsconfig.json',
       declaration: true,
-      declarationDir: 'dist',
     }),
     postcss({modules: true}),
     terser(),
