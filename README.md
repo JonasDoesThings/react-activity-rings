@@ -43,3 +43,7 @@
 * **paddingBetweenRings:** The padding between the single rings, default=`0.75`
 * **initialRadius:** The radius of the innermost ring, default=`30`
 * **animationDurationMillis:** The duration of the initial animation in milliseconds, default=`1000`
+
+## License
+The project is licensed under the MIT license.    
+Check the [LICENSE](./LICENSE) file, for the full legal-notice.
