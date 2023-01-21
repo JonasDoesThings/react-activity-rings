@@ -12,7 +12,7 @@ const defaultOptions : ActivityRingContainerOptions = {
   containerWidth: '100%',
   paddingBetweenRings: 0.75,
   initialRadius: 30,
-  animationDurationMillis: 1500,
+  animationDurationMillis: 1000,
 };
 
 export default function ActivityRings(props: ActivityRingsProps) {
