@@ -1,0 +1,22 @@
+.activityRingsContainer {
+    transform: rotate(-90deg);
+}
+
+@keyframes RingProgress {
+    from {
+        stroke-dasharray: 0 999;
+    }
+}
+
+.innerActivityRing {
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    animation: RingProgress ease-in-out forwards;
+}
+
+.innerActivityRingBackground {
+    fill: none;
+}
+
+
