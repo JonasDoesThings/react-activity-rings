@@ -16,7 +16,7 @@ const defaultOptions : ActivityRingContainerOptions = {
 };
 
 export default function ActivityRings(props: ActivityRingsProps) {
-  const options = Object.assign(defaultOptions, props.options) as Required<ActivityRingContainerOptions>;
+  const options = Object.assign({}, defaultOptions, props.options) as Required<ActivityRingContainerOptions>;
   const viewBoxSize = 100 + props.rings.length*(21.5+options.paddingBetweenRings);
 
   return (
