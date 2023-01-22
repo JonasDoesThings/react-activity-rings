@@ -7,7 +7,7 @@ interface ActivityRingsProps {
     options?: ActivityRingContainerOptions;
 }
 
-const defaultOptions : ActivityRingContainerOptions = {
+const defaultOptions: ActivityRingContainerOptions = {
   containerHeight: '100%',
   containerWidth: '100%',
   paddingBetweenRings: 0.75,
