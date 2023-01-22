@@ -28,16 +28,15 @@
       "error",
       "unix"
     ],
-    "quotes": [
-      "error",
-      "single"
-    ],
+    "quotes": ["error", "single"],
+    "jsx-quotes": ["error", "prefer-single"],
     "semi": [
       "error",
       "always"
     ],
     "@typescript-eslint/consistent-type-imports": "error",
     "@typescript-eslint/member-delimiter-style": "error",
-    "comma-dangle": ["error", "always-multiline"]
+    "comma-dangle": ["error", "always-multiline"],
+    "react/jsx-curly-brace-presence": ["error", {"propElementValues":  "always"}]
   }
 }
