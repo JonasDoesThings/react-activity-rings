@@ -1,6 +1,10 @@
 # react-activity-rings
 **Apple-inspired Activity Rings for React.**  
 
+![npm bundle size (scoped)](https://img.shields.io/bundlephobia/minzip/@jonasdoesthings/react-activity-rings?color=%2384cc16&style=flat-square)
+![NPM](https://img.shields.io/npm/l/@jonasdoesthings/react-activity-rings?color=%2384cc16&style=flat-square)
+
+
 ![demo banner gif](.assets/activityrings_banner.gif)
 
 ## Installation
