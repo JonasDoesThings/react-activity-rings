@@ -19,6 +19,7 @@ Storybook Demo: https://k4ds3.github.io/react-activity-rings/
 ```tsx
 import {ActivityRings} from "@jonasdoesthings/react-activity-rings";
 
+// Basic example with no custom settings
 <ActivityRings rings={[
   {filledPercentage: 0.5, color: '#fa0e5a'},
   {filledPercentage: 0.75, color: '#afff02'},
@@ -26,6 +27,7 @@ import {ActivityRings} from "@jonasdoesthings/react-activity-rings";
 ]} />
 ```
 ```tsx
+// Example with custom settings
 <ActivityRings 
   rings={[
     {filledPercentage: 0.1, color: 'rgb(255, 0, 0)'},
@@ -44,22 +46,26 @@ More usage-examples can be found under [./src/components/ActivityRings.stories.t
 
 ## API
 ### ActivityRings
-#### Props
-* **rings:** Array of the interface ActivityRing, **required**
-* **options:** An object of type ActivityRingContainerOptions
+| Property | Type                         | Required | Description                                          |
+|----------|------------------------------|----------|------------------------------------------------------|
+| rings    | ActivityRing[]               | yes      | An array of ActivityRing objects containing the data |
+| options  | ActivityRingContainerOptions | no       | An object containing general settings                |
 
 ### ActivityRing
-#### Fields
-* **filledPercentage:** A float between 0 and 1 representing the progress in percent, **required**
-* **color:** A css-compatible color string i.e. `#FF00FF` or `rgb(0, 255, 0)`, **required**
+| Property         | Type   | Required | Description                                                      |
+|------------------|--------|----------|------------------------------------------------------------------|
+| filledPercentage | number | yes      | A float between 0 and 1 representing the progress in percent     |
+| color            | string | yes      | A css-compatible color string i.e. `#FF00FF` or `rgb(0, 255, 0)` |
 
 ### ActivityRingContainerOptions
-#### Fields
-* **containerHeight:** A css-compatible height of the container, default=`100%`
-* **containerWidth:** A css-compatible width of the container, default=`100%`
-* **paddingBetweenRings:** The padding between the single rings, default=`0.75`
-* **initialRadius:** The radius of the innermost ring, default=`30`
-* **animationDurationMillis:** The duration of the initial animation in milliseconds, default=`1000`
+| Property                | Type   | Default | Description                                           |
+|-------------------------|--------|---------|-------------------------------------------------------|
+| containerHeight         | string | 100%    | A css-compatible height value of the container        |
+| containerWidth          | string | 100%    | A css-compatible width value of the container         |
+| paddingBetweenRings     | number | 0.75    | The padding between each of the rings                 |
+| initialRadius           | number | 30      | The radius of the innermost ring                      |
+| animationDurationMillis | number | 1000    | The duration of the initial animation in milliseconds |
+(All fields are optional)
 
 ## License
 The project is licensed under the MIT license.    
