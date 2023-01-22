@@ -1,7 +1,3 @@
-.activityRingsContainer {
-    transform: rotate(-90deg);
-}
-
 @keyframes RingProgress {
     from {
         stroke-dasharray: 0 999;
@@ -9,6 +5,8 @@
 }
 
 .innerActivityRing {
+    transform-origin: 50%;
+    transform: rotate(-90deg);
     fill: none;
     stroke-linecap: round;
     stroke-linejoin: round;
@@ -16,6 +14,8 @@
 }
 
 .innerActivityRingBackground {
+    transform-origin: 50%;
+    transform: rotate(-90deg);
     fill: none;
 }
 
