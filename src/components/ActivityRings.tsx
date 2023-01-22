@@ -31,9 +31,12 @@ export default function ActivityRings(props: ActivityRingsProps) {
 }
 
 interface InnerActivityRingProps {
-    index: number;
-    ring: ActivityRing;
-    options: Required<ActivityRingContainerOptions>;
+  // the index of the ring, where 0 is the innermost
+  index: number;
+  // the ActivityRing properties object
+  ring: ActivityRing;
+  // the ActivityRingContainer options object
+  options: Required<ActivityRingContainerOptions>;
 }
 
 function InnerActivityRing(props: InnerActivityRingProps) {
