@@ -30,6 +30,7 @@ SimpleTwoRings.args = {
   ],
   options: {
     containerHeight: '75vh',
+    backgroundOpacity: 0.3,
   },
 };
 

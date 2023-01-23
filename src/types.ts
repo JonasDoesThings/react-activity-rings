@@ -9,6 +9,8 @@ export interface ActivityRingContainerOptions {
     initialRadius?: number;
     // the duration of the appearance animation in milliseconds
     animationDurationMillis?: number;
+    // the opacity of the ring background
+    backgroundOpacity?: number;
 }
 
 export interface ActivityRing {
