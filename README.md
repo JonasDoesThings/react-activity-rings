@@ -1,8 +1,9 @@
 # react-activity-rings
 **Apple-inspired Activity Rings for React.**  
 
-![npm bundle size (scoped)](https://img.shields.io/bundlephobia/minzip/@jonasdoesthings/react-activity-rings?color=%2384cc16&style=flat-square)
-![NPM](https://img.shields.io/npm/l/@jonasdoesthings/react-activity-rings?color=%2384cc16&style=flat-square)
+[![npm bundle size (scoped)](https://img.shields.io/bundlephobia/minzip/@jonasdoesthings/react-activity-rings?color=%2384cc16&style=flat-square)](https://bundlephobia.com/package/@jonasdoesthings/react-activity-rings)
+[![LICENSE](https://img.shields.io/npm/l/@jonasdoesthings/react-activity-rings?color=%2384cc16&style=flat-square)](./LICENSE)
+[![npm version](https://img.shields.io/npm/v/@jonasdoesthings/react-activity-rings?color=84cc16&style=flat-square)](https://www.npmjs.com/package/@jonasdoesthings/react-activity-rings/)
 
 
 ![demo banner gif](.assets/activityrings_banner.gif)
