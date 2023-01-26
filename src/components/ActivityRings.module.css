@@ -10,7 +10,7 @@
     fill: none;
     stroke-linecap: round;
     stroke-linejoin: round;
-    animation: RingProgress ease-in-out forwards;
+    animation: RingProgress forwards;
 }
 
 .innerActivityRingBackground {

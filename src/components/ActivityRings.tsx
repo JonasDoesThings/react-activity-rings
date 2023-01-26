@@ -13,6 +13,7 @@ const defaultOptions: ActivityRingContainerOptions = {
   paddingBetweenRings: 0.75,
   initialRadius: 30,
   animationDurationMillis: 1000,
+  animationTimingFunction: 'ease-in-out',
   backgroundOpacity: 0.4,
 };
 
@@ -47,7 +48,7 @@ function InnerActivityRing(props: InnerActivityRingProps) {
   return (
     <>
       <circle cx='50%' cy='50%' r={radius} stroke={props.ring.color} strokeOpacity={props.options.backgroundOpacity} strokeWidth={12} className={styles.innerActivityRingBackground} />
-      <circle cx='50%' cy='50%' r={radius} strokeDasharray={`${dashArrayPart} ${'9'.repeat(props.index+4)}`} stroke={props.ring.color} strokeWidth={12} style={{animationDuration: `${props.options.animationDurationMillis}ms`}} className={styles.innerActivityRing} />
+      <circle cx='50%' cy='50%' r={radius} strokeDasharray={`${dashArrayPart} ${'9'.repeat(props.index+4)}`} stroke={props.ring.color} strokeWidth={12} style={{animationDuration: `${props.options.animationDurationMillis}ms`, animationTimingFunction: props.options.animationTimingFunction}} className={styles.innerActivityRing} />
     </>
   );
 }

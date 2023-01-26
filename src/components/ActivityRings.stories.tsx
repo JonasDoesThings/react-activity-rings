@@ -52,6 +52,21 @@ SimpleALotOfRings.args = {
   },
 };
 
+export const CustomizedThreeRings = Template.bind({});
+CustomizedThreeRings.args = {
+  rings: [
+    {filledPercentage: 0.5, color: '#fa0e5a'},
+    {filledPercentage: 0.75, color: '#afff02'},
+    {filledPercentage: 0.25, color: '#00fff8'},
+  ],
+  options: {
+    containerHeight: '75vh',
+    animationTimingFunction: 'cubic-bezier(.47,1.64,.41,.8)',
+    animationDurationMillis: 2000,
+    backgroundOpacity: 0.2,
+  },
+};
+
 export const Gallery = () => {
   return (
     <>

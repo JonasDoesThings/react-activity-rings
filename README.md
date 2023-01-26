@@ -58,14 +58,15 @@ More usage-examples can be found under [./src/components/ActivityRings.stories.t
 | color            | string | yes      | A css-compatible color string i.e. `#FF00FF` or `rgb(0, 255, 0)` |
 
 ### ActivityRingContainerOptions
-| Property                | Type   | Default | Description                                                                              |
-|-------------------------|--------|---------|------------------------------------------------------------------------------------------|
-| containerHeight         | string | 100%    | A css-compatible height value of the container                                           |
-| containerWidth          | string | 100%    | A css-compatible width value of the container                                            |
-| paddingBetweenRings     | number | 0.75    | The padding between each of the rings                                                    |
-| initialRadius           | number | 30      | The radius of the innermost ring                                                         |
-| animationDurationMillis | number | 1000    | The duration of the initial animation in milliseconds                                    |
-| backgroundOpacity       | number | 0.4     | A float between 0 and 1 representing the opacity of the background-ring color in percent |
+| Property                | Type   | Default     | Description                                                                                                              |
+|-------------------------|--------|-------------|--------------------------------------------------------------------------------------------------------------------------|
+| containerHeight         | string | 100%        | A css-compatible height value of the container                                                                           |
+| containerWidth          | string | 100%        | A css-compatible width value of the container                                                                            |
+| paddingBetweenRings     | number | 0.75        | The padding between each of the rings                                                                                    |
+| initialRadius           | number | 30          | The radius of the innermost ring                                                                                         |
+| animationDurationMillis | number | 1000        | The duration of the initial animation in milliseconds                                                                    |
+| animationTimingFunction | string | ease-in-out | A [css-compatible animation timing function](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-timing-function) |
+| backgroundOpacity       | number | 0.4         | A float between 0 and 1 representing the opacity of the background-ring color in percent                                 |
 
 (All fields are optional)
 

@@ -1,3 +1,5 @@
+import type {Property} from 'csstype';
+
 export interface ActivityRingContainerOptions {
     // value of the css height property of the rings-container, defaults to 100%
     containerHeight?: string;
@@ -9,6 +11,8 @@ export interface ActivityRingContainerOptions {
     initialRadius?: number;
     // the duration of the appearance animation in milliseconds
     animationDurationMillis?: number;
+    // the css-compatible animation timing-function to use, defaults to ease-in-out
+    animationTimingFunction?: Property.AnimationTimingFunction;
     // the opacity of the ring background
     backgroundOpacity?: number;
 }
