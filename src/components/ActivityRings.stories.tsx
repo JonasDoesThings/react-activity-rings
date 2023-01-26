@@ -61,7 +61,7 @@ CustomizedThreeRings.args = {
   ],
   options: {
     containerHeight: '75vh',
-    animationTimingFunction: 'cubic-bezier(.47,1.64,.41,.8)',
+    animationTimingFunction: 'cubic-bezier(.47,1.64,.36,-0.19)',
     animationDurationMillis: 2000,
     backgroundOpacity: 0.2,
   },
