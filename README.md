@@ -53,16 +53,16 @@ More usage-examples can be found under [./src/components/ActivityRings.stories.t
 | options  | ActivityRingContainerOptions | no       | An object containing general settings                |
 
 ### ActivityRing
-| Property         | Type   | Required | Description                                                      |
-|------------------|--------|----------|------------------------------------------------------------------|
-| filledPercentage | number | yes      | A float between 0 and 1 representing the progress in percent     |
-| color            | string | yes      | A css-compatible color string i.e. `#FF00FF` or `rgb(0, 255, 0)` |
+| Property         | Type   | Required | Description                                                                                                                |
+|------------------|--------|----------|----------------------------------------------------------------------------------------------------------------------------|
+| filledPercentage | number | yes      | A float between 0 and 1 representing the progress in percent                                                               |
+| color            | string | yes      | A [css-compatible color string](https://developer.mozilla.org/en-US/docs/Web/CSS/color) i.e. `#FF00FF` or `rgb(0, 255, 0)` |
 
 ### ActivityRingContainerOptions
 | Property                | Type   | Default     | Description                                                                                                              |
 |-------------------------|--------|-------------|--------------------------------------------------------------------------------------------------------------------------|
-| containerHeight         | string | 100%        | A css-compatible height value of the container                                                                           |
-| containerWidth          | string | 100%        | A css-compatible width value of the container                                                                            |
+| containerHeight         | string | 100%        | A [css-compatible height value](https://developer.mozilla.org/en-US/docs/Web/CSS/height) of the container                |
+| containerWidth          | string | 100%        | A [css-compatible width value](https://developer.mozilla.org/en-US/docs/Web/CSS/width) of the container                  |
 | paddingBetweenRings     | number | 0.75        | The padding between each of the rings                                                                                    |
 | initialRadius           | number | 30          | The radius of the innermost ring                                                                                         |
 | animationDurationMillis | number | 1000        | The duration of the initial animation in milliseconds                                                                    |

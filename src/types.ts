@@ -2,9 +2,9 @@ import type {Property} from 'csstype';
 
 export interface ActivityRingContainerOptions {
     // value of the css height property of the rings-container, defaults to 100%
-    containerHeight?: string;
+    containerHeight?: Property.Height;
     // value of the css width property of the rings-container, defaults to 100%
-    containerWidth?: string;
+    containerWidth?: Property.Width;
     // the padding between the single rings
     paddingBetweenRings?: number;
     // the radius of the innermost ring
@@ -21,5 +21,5 @@ export interface ActivityRing {
     // a float between 0-1 representing the filled-ness in percent
     filledPercentage: number;
     // a css-property compatible color string of the ring i.e. "#FF0000" or "rgb(255, 0, 0)"
-    color: string;
+    color: Property.Color;
 }
