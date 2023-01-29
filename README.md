@@ -15,7 +15,7 @@ using yarn:
 `yarn add @jonasdoesthings/react-activity-rings`  
 
 ## Examples
-Storybook Demo: https://k4ds3.github.io/react-activity-rings/
+Storybook Demo: https://jonasdoesthings.github.io/react-activity-rings/
 
 ```tsx
 import {ActivityRings} from "@jonasdoesthings/react-activity-rings";
