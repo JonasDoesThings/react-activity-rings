@@ -6,6 +6,7 @@ import typescript from '@rollup/plugin-typescript';
 import terser from '@rollup/plugin-terser';
 import postcss from 'rollup-plugin-postcss';
 import commonjs from '@rollup/plugin-commonjs';
+import analyze from 'rollup-plugin-analyzer';
 
 export default {
   input: 'src/index.ts',
@@ -41,5 +42,8 @@ export default {
       declaration: true,
     }),
     terser(),
+    analyze({
+      summaryOnly: true,
+    }),
   ],
 };

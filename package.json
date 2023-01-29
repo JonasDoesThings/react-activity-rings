@@ -46,6 +46,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "rollup": "^3.10.1",
+    "rollup-plugin-analyzer": "^4.0.0",
     "rollup-plugin-peer-deps-external": "^2.2.4",
     "rollup-plugin-postcss": "^4.0.2",
     "tslib": "^2.4.1",

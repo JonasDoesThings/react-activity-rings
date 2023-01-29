@@ -1817,6 +1817,7 @@ __metadata:
     react: ^18.2.0
     react-dom: ^18.2.0
     rollup: ^3.10.1
+    rollup-plugin-analyzer: ^4.0.0
     rollup-plugin-peer-deps-external: ^2.2.4
     rollup-plugin-postcss: ^4.0.2
     tslib: ^2.4.1
@@ -12862,6 +12863,13 @@ __metadata:
     hash-base: ^3.0.0
     inherits: ^2.0.1
   checksum: 006accc40578ee2beae382757c4ce2908a826b27e2b079efdcd2959ee544ddf210b7b5d7d5e80467807604244e7388427330f5c6d4cd61e6edaddc5773ccc393
+  languageName: node
+  linkType: hard
+
+"rollup-plugin-analyzer@npm:^4.0.0":
+  version: 4.0.0
+  resolution: "rollup-plugin-analyzer@npm:4.0.0"
+  checksum: 72f794f79efe4f620674a48949be9f64dc3cbf601c52ff90ae7cbeaacb604b86bb34321695d0f8f320e5c0b47880022849d92c51d231e1b32c6757a2c627be5e
   languageName: node
   linkType: hard
 
