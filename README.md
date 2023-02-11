@@ -14,6 +14,10 @@ using npm:
 using yarn:  
 `yarn add @jonasdoesthings/react-activity-rings`  
 
+### React Native
+While React Native is not a primary target of this project, I've successfully tested the component with React Native / Expo.  
+If you encounter any issues using this component with React Native, feel free to share them as a GitHub Issue.
+
 ## Examples
 Storybook Demo: https://jonasdoesthings.github.io/react-activity-rings/
 
