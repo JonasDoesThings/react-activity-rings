@@ -20,6 +20,7 @@
     "storybook": "start-storybook -p 6006",
     "storybook:workaround": "NODE_OPTIONS=--openssl-legacy-provider start-storybook -p 6006",
     "build-storybook": "build-storybook -o dist-storybook",
+    "build-storybook:workaround": "NODE_OPTIONS=--openssl-legacy-provider build-storybook -o dist-storybook",
     "lint": "eslint --ext .js,.jsx,.ts,.tsx ./src",
     "prepack": "yarn build"
   },

@@ -16,7 +16,7 @@ jobs:
         with:
           persist-credentials: false
       - run: yarn
-      - run: yarn build-storybook
+      - run: yarn build-storybook:workaround
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
         with:
