@@ -9,7 +9,8 @@
   "types": "dist/index.d.ts",
   "type": "module",
   "files": [
-    "dist"
+    "dist",
+    "src"
   ],
   "repository": {
     "url": "https://github.com/JonasDoesThings/react-activity-rings/",
