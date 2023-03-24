@@ -2,7 +2,7 @@
 node_modules/
 
 dist/
-package.tgz
+*.tgz
 
 dist-storybook/
 
