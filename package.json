@@ -13,8 +13,11 @@
     "src"
   ],
   "repository": {
-    "url": "https://github.com/JonasDoesThings/react-activity-rings/",
+    "url": "https://github.com/JonasDoesThings/react-activity-rings.git",
     "type": "git"
+  },
+  "bugs": {
+    "url": "https://github.com/JonasDoesThings/react-activity-rings/issues"
   },
   "scripts": {
     "build": "rm -rf dist/ && rollup -c",
