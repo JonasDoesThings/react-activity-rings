@@ -23,7 +23,5 @@
     "dist",
     "node_modules",
     ".storybook",
-    "src/**/*.test.tsx",
-    "src/**/*.stories.tsx"
   ]
 }
