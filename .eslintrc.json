@@ -6,10 +6,10 @@
   "extends": [
     "eslint:recommended",
     "plugin:react/recommended",
-    "plugin:@typescript-eslint/recommended"
+    "plugin:@typescript-eslint/recommended",
+    "plugin:storybook/recommended"
   ],
-  "overrides": [
-  ],
+  "overrides": [],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
     "ecmaVersion": "latest",
@@ -28,15 +28,29 @@
       "error",
       "unix"
     ],
-    "quotes": ["error", "single"],
-    "jsx-quotes": ["error", "prefer-single"],
+    "quotes": [
+      "error",
+      "single"
+    ],
+    "jsx-quotes": [
+      "error",
+      "prefer-single"
+    ],
     "semi": [
       "error",
       "always"
     ],
     "@typescript-eslint/consistent-type-imports": "error",
     "@typescript-eslint/member-delimiter-style": "error",
-    "comma-dangle": ["error", "always-multiline"],
-    "react/jsx-curly-brace-presence": ["error", {"propElementValues":  "always"}]
+    "comma-dangle": [
+      "error",
+      "always-multiline"
+    ],
+    "react/jsx-curly-brace-presence": [
+      "error",
+      {
+        "propElementValues": "always"
+      }
+    ]
   }
 }
