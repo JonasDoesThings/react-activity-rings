@@ -1,69 +1,80 @@
 import React from 'react';
 import {ActivityRings} from '../index';
-import type {ComponentStory, ComponentMeta} from '@storybook/react';
+import type {Meta, StoryObj} from '@storybook/react';
 import type {ActivityRing} from '../types';
 
-export default {
+const meta: Meta<typeof ActivityRings> = {
   title: 'Example/ActivityRings',
   component: ActivityRings,
-} as ComponentMeta<typeof ActivityRings>;
+};
+export default meta;
 
-const Template: ComponentStory<typeof ActivityRings> = (args) => <ActivityRings rings={args.rings} options={args.options} />;
+type Story = StoryObj<typeof ActivityRings>;
+const Template: Story = {
+  render: (args) => <ActivityRings rings={args.rings} options={args.options} />,
+};
 
-export const SimpleThreeRings = Template.bind({});
-SimpleThreeRings.args = {
-  rings: [
-    {filledPercentage: 0.5, color: '#fa0e5a'},
-    {filledPercentage: 0.75, color: '#afff02'},
-    {filledPercentage: 0.25, color: '#00fff8'},
-  ],
-  options: {
-    containerHeight: '75vh',
+export const SimpleThreeRings: Story = {
+  ...Template,
+  args: {
+    rings: [
+      {filledPercentage: 0.5, color: '#fa0e5a'},
+      {filledPercentage: 0.75, color: '#afff02'},
+      {filledPercentage: 0.25, color: '#00fff8'},
+    ],
+    options: {
+      containerHeight: '75vh',
+    },
   },
 };
 
-export const SimpleTwoRings = Template.bind({});
-SimpleTwoRings.args = {
-  rings: [
-    {filledPercentage: 0.5, color: '#fa0e5a'},
-    {filledPercentage: 0.75, color: '#afff02'},
-  ],
-  options: {
-    containerHeight: '75vh',
-    backgroundOpacity: 0.3,
+export const SimpleTwoRings: Story = {
+  ...Template,
+  args: {
+    rings: [
+      {filledPercentage: 0.5, color: '#fa0e5a'},
+      {filledPercentage: 0.75, color: '#afff02'},
+    ],
+    options: {
+      containerHeight: '75vh',
+      backgroundOpacity: 0.3,
+    },
   },
 };
 
-export const SimpleALotOfRings = Template.bind({});
-SimpleALotOfRings.args = {
-  rings: [
-    {filledPercentage: 0.5, color: '#fa0e5a'},
-    {filledPercentage: 0.75, color: '#afff02'},
-    {filledPercentage: 0.25, color: '#00fff8'},
-    {filledPercentage: 0.1, color: '#b91c1c'},
-    {filledPercentage: 1, color: '#00FF00'},
-    {filledPercentage: 0.5, color: '#0284c7'},
-    {filledPercentage: 0.25, color: '#f123ff'},
-    {filledPercentage: 0.1, color: '#FF0000'},
-    {filledPercentage: 0.75, color: '#0000FF'},
-  ],
-  options: {
-    containerHeight: '75vh',
+export const SimpleALotOfRings: Story = {
+  ...Template,
+  args: {
+    rings: [
+      {filledPercentage: 0.5, color: '#fa0e5a'},
+      {filledPercentage: 0.75, color: '#afff02'},
+      {filledPercentage: 0.25, color: '#00fff8'},
+      {filledPercentage: 0.1, color: '#b91c1c'},
+      {filledPercentage: 1, color: '#00FF00'},
+      {filledPercentage: 0.5, color: '#0284c7'},
+      {filledPercentage: 0.25, color: '#f123ff'},
+      {filledPercentage: 0.1, color: '#FF0000'},
+      {filledPercentage: 0.75, color: '#0000FF'},
+    ],
+    options: {
+      containerHeight: '75vh',
+    },
   },
 };
 
-export const CustomizedThreeRings = Template.bind({});
-CustomizedThreeRings.args = {
-  rings: [
-    {filledPercentage: 0.5, color: '#fa0e5a'},
-    {filledPercentage: 0.75, color: '#afff02'},
-    {filledPercentage: 0.25, color: '#00fff8'},
-  ],
-  options: {
-    containerHeight: '75vh',
-    animationTimingFunction: 'cubic-bezier(.47,1.64,.36,-0.19)',
-    animationDurationMillis: 2000,
-    backgroundOpacity: 0.2,
+export const CustomizedThreeRings: Story = {
+  args: {
+    rings: [
+      {filledPercentage: 0.5, color: '#fa0e5a'},
+      {filledPercentage: 0.75, color: '#afff02'},
+      {filledPercentage: 0.25, color: '#00fff8'},
+    ],
+    options: {
+      containerHeight: '75vh',
+      animationTimingFunction: 'cubic-bezier(.47,1.64,.36,-0.19)',
+      animationDurationMillis: 2000,
+      backgroundOpacity: 0.2,
+    },
   },
 };
 
