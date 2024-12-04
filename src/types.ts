@@ -24,4 +24,6 @@ export interface ActivityRing {
     color: Property.Color;
     // By default, the normal (foreground-)`color` is used, can be customized. A css-property compatible color string of the ring i.e. "#FF0000" or "rgb(255, 0, 0)"
     backgroundColor?: Property.Color;
+    // number in svg-relative pixels specifying the stroke-width of the ring, defaults to 12
+    ringWidth?: number;
 }

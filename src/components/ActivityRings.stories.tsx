@@ -97,6 +97,20 @@ export const CustomBackgroundColor: Story = {
   },
 };
 
+export const CustomRingWidth: Story = {
+  ...Template,
+  args: {
+    rings: [
+      {filledPercentage: 0.5, color: '#fa0e5a', ringWidth: 3},
+      {filledPercentage: 0.75, color: '#afff02', ringWidth: 12},
+      {filledPercentage: 0.25, color: '#00fff8', ringWidth: 3},
+    ],
+    options: {
+      containerHeight: '75vh',
+    },
+  },
+};
+
 export const Gallery = () => {
   return (
     <>

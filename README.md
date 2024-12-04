@@ -60,6 +60,7 @@ More usage-examples can be found under [./src/components/ActivityRings.stories.t
 | filledPercentage | number | yes      | A float between 0 and 1 representing the progress in percent                                                                                                              |
 | color            | string | yes      | A [css-compatible color string](https://developer.mozilla.org/en-US/docs/Web/CSS/color) i.e. `#FF00FF` or `rgb(0, 255, 0)`                                                |
 | backgroundColor  | string | no       | A [css-compatible color string](https://developer.mozilla.org/en-US/docs/Web/CSS/color) i.e. `#FF00FF` or `rgb(0, 255, 0)`. If not defined, the foreground color is used. |
+| ringWidth        | number | no       | A number in svg viewport-relative pixels specifying the stroke-width of the ring, if not defined, defaults to 12                                                          |
 
 ### ActivityRingContainerOptions
 | Property                | Type   | Default     | Description                                                                                                              |
