@@ -78,6 +78,25 @@ export const CustomizedThreeRings: Story = {
   },
 };
 
+export const CustomBackgroundColor: Story = {
+  parameters: {
+    backgrounds: {
+      default: 'Gray',
+    },
+  },
+  args: {
+    rings: [
+      {filledPercentage: 0.5, color: '#dd0e39', backgroundColor: '#f3f3f4'},
+      {filledPercentage: 0.75, color: '#03897c', backgroundColor: '#f3f3f4'},
+      {filledPercentage: 0.25, color: '#0586aa', backgroundColor: '#f3f3f4'},
+    ],
+    options: {
+      containerHeight: '75vh',
+      backgroundOpacity: 1,
+    },
+  },
+};
+
 export const Gallery = () => {
   return (
     <>

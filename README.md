@@ -53,10 +53,11 @@ More usage-examples can be found under [./src/components/ActivityRings.stories.t
 | options  | ActivityRingContainerOptions | no       | An object containing general settings                |
 
 ### ActivityRing
-| Property         | Type   | Required | Description                                                                                                                |
-|------------------|--------|----------|----------------------------------------------------------------------------------------------------------------------------|
-| filledPercentage | number | yes      | A float between 0 and 1 representing the progress in percent                                                               |
-| color            | string | yes      | A [css-compatible color string](https://developer.mozilla.org/en-US/docs/Web/CSS/color) i.e. `#FF00FF` or `rgb(0, 255, 0)` |
+| Property         | Type   | Required | Description                                                                                                                                                               |
+|------------------|--------|----------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| filledPercentage | number | yes      | A float between 0 and 1 representing the progress in percent                                                                                                              |
+| color            | string | yes      | A [css-compatible color string](https://developer.mozilla.org/en-US/docs/Web/CSS/color) i.e. `#FF00FF` or `rgb(0, 255, 0)`                                                |
+| backgroundColor  | string | no       | A [css-compatible color string](https://developer.mozilla.org/en-US/docs/Web/CSS/color) i.e. `#FF00FF` or `rgb(0, 255, 0)`. If not defined, the foreground color is used. |
 
 ### ActivityRingContainerOptions
 | Property                | Type   | Default     | Description                                                                                                              |
