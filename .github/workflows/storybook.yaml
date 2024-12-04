@@ -17,6 +17,7 @@ jobs:
           persist-credentials: false
       - name: Install & Build
         run: |
+          corepack enable
           yarn
           yarn build-storybook
           touch ./storybook-static/.nojekyll
