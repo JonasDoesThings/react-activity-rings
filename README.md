@@ -7,6 +7,7 @@
 
 
 ![demo banner gif](.assets/activityrings_banner.gif)
+
 Support my Open Source work:  
 <a href="https://www.buymeacoffee.com/JonasDoesThings" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
 
@@ -14,8 +15,7 @@ Support my Open Source work:
 using npm:  
 `npm install @jonasdoesthings/react-activity-rings`  
 using yarn:  
-`yarn add @jonasdoesthings/react-activity-rings`  
-
+`yarn add @jonasdoesthings/react-activity-rings`
 ## Examples
 Storybook Demo: https://jonasdoesthings.github.io/react-activity-rings/
 
